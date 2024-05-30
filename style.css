@@ -6,7 +6,9 @@
   *, *::before, *::after {
     box-sizing: border-box;
   }
-
+body{
+    background-color:hsl(0, 0%, 8%) ;
+}
 
 a {
     padding: 15px 80px;
@@ -14,7 +16,7 @@ a {
 
 a {
     display: block;
-    background-color: hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 20%);
     color: white;
     border-radius: 6px;
     text-decoration: none;
@@ -52,6 +54,9 @@ html {
 .name {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+}
+a{
+    background-color: black;
 }
 a:hover {
     background-color: hsl(75, 94%, 57%);
